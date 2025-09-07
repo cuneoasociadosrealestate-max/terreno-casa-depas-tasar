@@ -70,7 +70,6 @@ const DATA = {
       "Zona Alta": 5800
     }
   },
-
   // === LIMA MODERNA (Distritos Intermedios) ===
   "Jesus Maria": {
     type: ["Departamento", "Casa", "Terreno"],
@@ -156,7 +155,6 @@ const DATA = {
       "Biblioteca Nacional": 6400
     }
   },
-
   // === LIMA ESTE ===
   "Ate": {
     type: ["Departamento", "Casa", "Terreno"],
@@ -218,8 +216,7 @@ const DATA = {
       "Huachipa": 4100
     }
   },
-
-  // === LIMA NORTE ===
+ // === LIMA NORTE ===
   "Los Olivos": {
     type: ["Departamento", "Casa", "Terreno"],
     zones: {
@@ -292,8 +289,7 @@ const DATA = {
       "Tungasuca": 2750
     }
   },
-
-  // === LIMA SUR ===
+ // === LIMA SUR ===
   "Chorrillos": {
     type: ["Departamento", "Casa", "Terreno"],
     zones: {
@@ -366,8 +362,7 @@ const DATA = {
       "Zona Arqueologica": 3200
     }
   },
-
-  // === CALLAO ===
+ // === CALLAO ===
   "Callao": {
     type: ["Departamento", "Casa", "Terreno"],
     zones: {
@@ -440,7 +435,6 @@ const DATA = {
       "Costa Verde": 3100
     }
   },
-
   // === BALNEARIOS ===
   "Santa Maria del Mar": {
     type: ["Departamento", "Casa", "Terreno"],
@@ -983,6 +977,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calcular();
   });
 });
+
 
 
 
