@@ -526,8 +526,7 @@ const data = {
       "Zona Rural": 2500
     }
   },
-
-  // === OTROS DISTRITOS ===
+// === OTROS DISTRITOS ===
   "Cercado de Lima": {
     type: ["Departamento", "Casa", "Terreno"],
     zones: {
@@ -598,7 +597,6 @@ const data = {
       "Zona Residencial": 4800,
       "Rio Rimac": 4600,
       "Zona Alta": 5100
-
     }
   }
 };
@@ -985,5 +983,6 @@ document.addEventListener("DOMContentLoaded", () => {
     calcular();
   });
 });
+
 
 
