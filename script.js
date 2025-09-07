@@ -7,7 +7,8 @@ const app = document.getElementById('app');
 const gateMsg = document.getElementById('gateMsg');
 const btnLogin = document.getElementById('btnLogin');
 const logout = document.getElementById('logout');
-const data = {
+
+const DATA = {
   // === LIMA TOP (Distritos Premium) ===
   "San Isidro": {
     type: ["Departamento", "Casa", "Terreno"],
@@ -982,6 +983,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calcular();
   });
 });
+
 
 
 
